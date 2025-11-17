@@ -1,4 +1,4 @@
-This repo contains code and analysis for **predicting the success of altruistic requests** on Reddit’s r/Random_Acts_Of_Pizza (RAOP) and comparing model performance to the paper’s baselines. :contentReference[oaicite:0]{index=0}  
+This repo contains code and analysis for **predicting the success of altruistic requests** on Reddit’s r/Random_Acts_Of_Pizza (RAOP) and comparing model performance to the paper’s baselines.  
 
 The assignment trains and evaluates **four separate models** and then reflects on what types of features (language vs. user behavior) actually help with prediction.
 
@@ -27,7 +27,7 @@ All models predict whether a request received pizza (`requester_received_pizza` 
    - Goal: detect moral language and ethical framing.
    - Performance: worst model; AUC < 0.5, very low recall for successful requests.
 
-The notebook also compares these numbers to the ROC AUC baselines from the RAOP paper and discusses why **social/activity features** outperform most **pure language** feature sets. :contentReference[oaicite:1]{index=1}  
+The notebook also compares these numbers to the ROC AUC baselines from the RAOP paper and discusses why **social/activity features** outperform most **pure language** feature sets.  
 
 ---
 
